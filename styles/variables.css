@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+  /* Colors */
+  --primary: #5A3F33;
+  --secondary: #D4B89D;
+  --accent: #A0522D;
+  --background: #F9F7F5;
+  --text: #333333;
+  --white: #ffffff;
+  --dark-text: #1a1a1a;
+  --light-gray: #f0f0f0;
+
+  /* Fonts */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Roboto', sans-serif;
+
+  /* Spacing */
+  --spacing-xxs: 0.25rem;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-xxl: 4rem;
+
+  /* Borders & Shadows */
+  --border-radius: 8px;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+  /* Transitions */
+  --transition-speed: 0.3s;
+  --transition-ease: ease-in-out;
+  --transition-all: all var(--transition-speed) var(--transition-ease);
+
+  /* Max Width */
+  --max-width: 1200px;
+}
+
+/* Dark mode (optional, no specific values provided for dark mode yet) */
+@media (prefers-color-scheme: dark) {
+  /* :root {
+    --primary: #color;
+    --secondary: #color;
+    --accent: #color;
+    --background: #color;
+    --text: #color;
+  } */
+}
